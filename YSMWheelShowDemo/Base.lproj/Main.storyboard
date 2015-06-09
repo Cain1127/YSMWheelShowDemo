@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsx-Ey-vag">
+                                <rect key="frame" x="278" y="74" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ear-qg-05D"/>
+                                    <constraint firstAttribute="width" secondItem="hsx-Ey-vag" secondAttribute="height" multiplier="1:1" id="iqE-4S-zmJ"/>
+                                </constraints>
+                                <state key="normal" title="fly" image="fly_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="fly_highlight"/>
+                                <state key="highlighted" image="fly_highlight"/>
+                                <connections>
+                                    <action selector="flyButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kbL-QJ-zfO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaE-QE-7w8">
+                                <rect key="frame" x="354" y="118" width="44" height="44"/>
+                                <state key="normal" title="person" image="person_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="person_highlight"/>
+                                <state key="highlighted" image="person_highlight"/>
+                                <connections>
+                                    <action selector="personButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qhf-j7-HEZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIa-Hy-VhC">
+                                <rect key="frame" x="202" y="118" width="44" height="44"/>
+                                <state key="normal" title="who" image="who_normal"/>
+                                <state key="selected" image="who_highlight"/>
+                                <state key="highlighted" image="who_highlight"/>
+                                <connections>
+                                    <action selector="whoButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8uj-Jz-XM5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Q7-SU-4Nj">
+                                <rect key="frame" x="202" y="206" width="44" height="44"/>
+                                <state key="normal" title="god" image="god_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="god_highlight"/>
+                                <state key="highlighted" image="god_highlight"/>
+                                <connections>
+                                    <action selector="godButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9Fz-xJ-DTd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBL-Lk-B4x">
+                                <rect key="frame" x="354" y="206" width="44" height="44"/>
+                                <state key="normal" title="west" image="west_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="west_highlight"/>
+                                <state key="highlighted" image="west_highlight"/>
+                                <connections>
+                                    <action selector="westButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5Ch-2I-28y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dF9-2h-dNr">
+                                <rect key="frame" x="278" y="250" width="44" height="44"/>
+                                <state key="normal" title="weapon" image="weapon_normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="weapon_highlight"/>
+                                <state key="highlighted" image="weapon_highlight"/>
+                                <connections>
+                                    <action selector="weaponButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xld-XZ-bOi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jH8-8c-l1D">
+                                <rect key="frame" x="270" y="154" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="FZP-1h-QWg"/>
+                                    <constraint firstAttribute="width" constant="60" id="tgE-S6-R9K"/>
+                                </constraints>
+                                <state key="normal" title="center" image="indicator">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="indicator"/>
+                                <connections>
+                                    <action selector="centerButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="mqa-CT-FOz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrw-P0-JXd">
+                                <rect key="frame" x="278" y="324" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Ox0-Y6-Ulx"/>
+                                    <constraint firstAttribute="width" constant="44" id="Rmx-hO-qYl"/>
+                                </constraints>
+                                <state key="normal" title="show">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showButtonAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zQw-oo-yVb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="height" secondItem="pIa-Hy-VhC" secondAttribute="height" id="0IW-Fz-XeK"/>
+                            <constraint firstItem="pIa-Hy-VhC" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="118" id="3SR-rx-hx4"/>
+                            <constraint firstItem="pIa-Hy-VhC" firstAttribute="leading" secondItem="3Q7-SU-4Nj" secondAttribute="leading" id="3aX-vb-oDr"/>
+                            <constraint firstItem="UaE-QE-7w8" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="118" id="447-Mj-h0o"/>
+                            <constraint firstAttribute="centerX" secondItem="jrw-P0-JXd" secondAttribute="centerX" id="7AA-bK-3NL"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="width" secondItem="pIa-Hy-VhC" secondAttribute="width" id="7jI-vG-Olk"/>
+                            <constraint firstAttribute="centerX" secondItem="hsx-Ey-vag" secondAttribute="centerX" id="AHz-ls-j1X"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="leading" secondItem="pIa-Hy-VhC" secondAttribute="trailing" constant="32" id="EGX-H5-Ze3"/>
+                            <constraint firstItem="dF9-2h-dNr" firstAttribute="top" secondItem="hsx-Ey-vag" secondAttribute="bottom" constant="132" id="Jx7-2p-hoR"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="width" secondItem="TBL-Lk-B4x" secondAttribute="width" id="Oj0-kh-SyZ"/>
+                            <constraint firstItem="TBL-Lk-B4x" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="206" id="R9k-OC-i2Y"/>
+                            <constraint firstItem="3Q7-SU-4Nj" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="206" id="U9G-Zh-8F4"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="height" secondItem="UaE-QE-7w8" secondAttribute="height" id="UkA-pf-iI2"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="width" secondItem="dF9-2h-dNr" secondAttribute="width" id="V2r-ce-i8n"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="height" secondItem="3Q7-SU-4Nj" secondAttribute="height" id="axo-jF-JW0"/>
+                            <constraint firstItem="jrw-P0-JXd" firstAttribute="top" secondItem="dF9-2h-dNr" secondAttribute="bottom" constant="30" id="cJC-B0-Oce"/>
+                            <constraint firstItem="UaE-QE-7w8" firstAttribute="leading" secondItem="hsx-Ey-vag" secondAttribute="trailing" constant="32" id="dmR-J0-HA4"/>
+                            <constraint firstItem="UaE-QE-7w8" firstAttribute="leading" secondItem="TBL-Lk-B4x" secondAttribute="leading" id="ft9-UA-g6B"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="width" secondItem="3Q7-SU-4Nj" secondAttribute="width" id="grh-r7-goH"/>
+                            <constraint firstAttribute="centerX" secondItem="dF9-2h-dNr" secondAttribute="centerX" id="h8G-ei-z1J"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="height" secondItem="dF9-2h-dNr" secondAttribute="height" id="hVD-kf-i0E"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="height" secondItem="TBL-Lk-B4x" secondAttribute="height" id="hYD-KX-ICO"/>
+                            <constraint firstAttribute="centerX" secondItem="jH8-8c-l1D" secondAttribute="centerX" id="hpb-nX-H4a"/>
+                            <constraint firstItem="jH8-8c-l1D" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="154" id="mVZ-Vq-BxN"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="width" secondItem="UaE-QE-7w8" secondAttribute="width" id="nWY-85-YgN"/>
+                            <constraint firstItem="3Q7-SU-4Nj" firstAttribute="top" secondItem="pIa-Hy-VhC" secondAttribute="bottom" constant="44" id="qeO-pX-tzz"/>
+                            <constraint firstItem="hsx-Ey-vag" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="74" id="yKX-0K-E5M"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="centerButton" destination="jH8-8c-l1D" id="HRx-fC-dUa"/>
+                        <outlet property="centerButtonYPoint" destination="mVZ-Vq-BxN" id="pPe-BT-YY6"/>
+                        <outlet property="flyButton" destination="hsx-Ey-vag" id="R7z-CW-MIk"/>
+                        <outlet property="godButton" destination="3Q7-SU-4Nj" id="U14-IV-kwN"/>
+                        <outlet property="personButton" destination="UaE-QE-7w8" id="CDf-ks-154"/>
+                        <outlet property="showButton" destination="jrw-P0-JXd" id="67d-9V-HR8"/>
+                        <outlet property="showButtonHeight" destination="Ox0-Y6-Ulx" id="K5Z-26-dyf"/>
+                        <outlet property="showButtonWidth" destination="Rmx-hO-qYl" id="bCa-Ns-TCl"/>
+                        <outlet property="weaponButton" destination="dF9-2h-dNr" id="cxO-0a-HVq"/>
+                        <outlet property="westButton" destination="TBL-Lk-B4x" id="T6h-uC-7YN"/>
+                        <outlet property="whoButton" destination="pIa-Hy-VhC" id="id7-uS-ycI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fly_highlight" width="115" height="115"/>
+        <image name="fly_normal" width="115" height="115"/>
+        <image name="god_highlight" width="120" height="120"/>
+        <image name="god_normal" width="120" height="120"/>
+        <image name="indicator" width="116" height="117"/>
+        <image name="person_highlight" width="115" height="115"/>
+        <image name="person_normal" width="115" height="115"/>
+        <image name="weapon_highlight" width="115" height="115"/>
+        <image name="weapon_normal" width="115" height="115"/>
+        <image name="west_highlight" width="115" height="115"/>
+        <image name="west_normal" width="115" height="115"/>
+        <image name="who_highlight" width="115" height="115"/>
+        <image name="who_normal" width="115" height="115"/>
+    </resources>
+</document>
